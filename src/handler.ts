@@ -80,11 +80,10 @@ export const handler: APIGatewayProxyHandler = async (
     }
 
 
-  } catch (err) {
+  } catch {
 
     console.error(
-      'Error in associateElasticIpLambda:',
-      err
+      'Error in associateElasticIpLambda'
     )
 
 
